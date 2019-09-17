@@ -73,8 +73,8 @@
 	 * PostType must match what the {PostType} token can be: answer, audio, chat, link, panorama, photo, photoset, text, video
 	 */
 
-	"posts":[
-		{
+	"posts":[ // http://tumblr.github.io/jumblr/javadoc/com/tumblr/jumblr/types/Post.html (READ THIS VINCE!)
+		{//AnswerPost, AudioPost, ChatPost, LinkPost, PhotoPost, QuotePost, TextPost, UnknownTypePost, VideoPost
 			"PostType":"audio",
 			"PostID":10,
 			/* If set to true, a SoundCloud player gets embedded.  
